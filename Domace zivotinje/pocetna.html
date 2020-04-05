@@ -1,0 +1,96 @@
+<html>
+
+<body >
+	<style>
+	body{background-image:url("Slike/trava.png");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;}
+	.zivotinje{width:250;heght:150;
+	
+	}
+	
+	</style>
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<img src="Slike/slika1.png" class="zivotinje" onclick="info1()" onmouseover="zvuk1()">
+<img src="Slike/slika2.png" class="zivotinje" onclick="info2()" onmouseover="zvuk2()">
+<img src="Slike/slika3.png" class="zivotinje" onclick="info3()" onmouseover="zvuk3()">
+<img src="Slike/slika4.png" class="zivotinje" onclick="info4()" onmouseover="zvuk4()">
+<img src="Slike/slika5.png" class="zivotinje" onclick="info5()" onmouseover="zvuk5()">
+
+
+<script>
+function zvuk1(){
+ var audio = new Audio('Zvukovi/konj.wav');
+ audio.play();
+}
+function zvuk2(){
+ var audio = new Audio('Zvukovi/pas.wav');
+ audio.play();
+}
+
+function zvuk3(){
+ var audio = new Audio('Zvukovi/macka.wav');
+ audio.play();
+}
+
+function zvuk4(){
+ var audio = new Audio('Zvukovi/krava.wav');
+ audio.play();
+}
+
+function zvuk5(){
+ var audio = new Audio('Zvukovi/svinja.wav');
+ audio.play();
+}
+
+function info1(){
+window.open("https://en.wikipedia.org/wiki/Horse", "MsgWindow", "width=max,height=max");
+
+}
+
+function info2(){
+window.open("https://en.wikipedia.org/wiki/Dog", "MsgWindow", "width=max,height=max");
+ 
+}
+function info3(){
+
+window.open("https://en.wikipedia.org/wiki/Cat", "MsgWindow", "width=max,height=max");
+
+}
+function info4(){
+
+window.open("https://en.wikipedia.org/wiki/Cattle", "MsgWindow", "width=max,height=max");
+
+}
+
+function info5(){
+
+ window.open("https://en.wikipedia.org/wiki/Pig", "MsgWindow", "width=max,height=max");
+
+}
+</script>
+</body>
+</html>
